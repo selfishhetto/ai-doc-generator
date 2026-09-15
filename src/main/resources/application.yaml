@@ -1,3 +1,8 @@
 spring:
   application:
     name: aidocgenerator
+
+ai:
+  api-key: ${GEMINI_API_KEY:changeme}
+  base-url: ${AI_BASE_URL:https://generativelanguage.googleapis.com/v1beta}
+  model: ${AI_MODEL:gemini-3.1-flash-lite}
